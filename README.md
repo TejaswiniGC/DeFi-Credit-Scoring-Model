@@ -32,7 +32,7 @@ The scoring system is built on a simple, transparent, and interpretable rule-bas
 
 ## Project Files
 
-* `Zeru.ipynb`: The Python script that runs the entire pipeline from data loading to score generation.
+* `MainScript.ipynb`: The Python script that runs the entire pipeline from data loading to score generation.
 * `user-wallet-transactions.json`: The raw input data file.
 * `wallet_scores.csv`: The output file containing the final credit score for each unique wallet.
 * `analysis.md`: A detailed report on the score distribution and an examination of high- and low-scoring wallet behaviors.
