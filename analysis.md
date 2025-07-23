@@ -32,7 +32,7 @@ The low-scoring wallets are a small but important group. A score below 400 is a 
 
 The majority of wallets fall into this category, with a significant number having scores above 800. The analysis of these wallets' features validates the model's positive scoring logic:
 
-| Feature & Condition |
+| Feature | Condition |
 | :--- | :--- |
 | `num_liquidations_as_borrower` | **0** |
 | `repayment_ratio_usd` | **1.0 (perfect repayment) or high** |
