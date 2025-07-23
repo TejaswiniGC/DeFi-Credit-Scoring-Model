@@ -46,7 +46,7 @@ This project is designed to be run in a Google Colab notebook for ease of use, w
     * On the left-hand side, click the "Files" icon (folder icon).
     * Click the "Upload to session storage" icon (up arrow) and upload the `user-wallet-transactions.json` file.
     * **Note:** The file must be named exactly `user-wallet-transactions.json` for the script to find it.
-3.  **Paste the Code:** Copy the entire Python script from `[Your_Main_Script_Name].py` and paste it into a code cell in the notebook.
+3.  **Paste the Code:** Copy the entire Python script from `MainScript.ipynb` and paste it into a code cell in the notebook.
 4.  **Run the Code:** Click the "Run" button (play icon) or press `Ctrl + Enter`.
 5.  **Retrieve the Output:** After the script finishes, a new file named `wallet_scores.csv` will appear in the "Files" section. Right-click and select "Download" to save it to your local machine.
 
