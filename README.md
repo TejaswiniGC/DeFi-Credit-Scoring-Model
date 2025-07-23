@@ -43,18 +43,8 @@ This project is designed to be run in a Google Colab notebook for ease of use, w
 
 1.  **Open Google Colab:** Go to [colab.research.google.com](https://colab.research.google.com/) and create a new notebook.
 2.  **Upload the Data:**
-    * On the left-hand side, click the "Files" icon (folder icon).
-    * Click the "Upload to session storage" icon (up arrow) and upload the `user-wallet-transactions.json` file.
-    * **Note:** The file must be named exactly `user-wallet-transactions.json` for the script to find it.
+    * upload the `user-wallet-transactions.json` into colab file section.
+    * **Note:** The file must be named `user-wallet-transactions.json` for the script to find it.
 3.  **Paste the Code:** Copy the entire Python script from `MainScript.ipynb` and paste it into a code cell in the notebook.
 4.  **Run the Code:** Click the "Run" button (play icon) or press `Ctrl + Enter`.
 5.  **Retrieve the Output:** After the script finishes, a new file named `wallet_scores.csv` will appear in the "Files" section. Right-click and select "Download" to save it to your local machine.
-
-## Things to Note (Colab Specifics)
-
-* **Temporary Storage:** The files you upload to the Colab files section are stored in a temporary virtual machine. They will be deleted when the runtime disconnects. Make sure to download your output file before closing the notebook.
-* **Dependencies:** The script relies on standard libraries like `pandas`, `numpy`, and `matplotlib`. Colab comes with these pre-installed, so you do not need to run `pip install` commands unless you introduce a new, non-standard library.
-* **Debugging:** The Colab environment is useful for debugging. If you encounter an error, you can easily inspect the state of your variables and DataFrames in separate cells.
-
----
-_This README provides a clear and concise guide to the project. For a deeper dive into the results and model validation, please refer to the `analysis.md` file._
